@@ -1,4 +1,4 @@
-# The Official farmme.io C# Style Guide
+# The Official C# Style Guide for Farmme - farmme.io project
 
 This style guide is different from others you may find, because the focus is
 centered on readability for print and the web. We created this style guide to
@@ -6,9 +6,9 @@ keep the code in our tutorials consistent.
 
 Our overarching goals are **conciseness**, **readability** and **simplicity**. Also, this guide is written to keep **Unity** in mind. 
 
-## Inspiration
+## Cảm hứng
 
-This style guide is based on C# and Unity conventions. 
+Style guide is based on C#, Java và Unity conventions.
 
 ## Table of Contents
 
@@ -49,18 +49,18 @@ Namespaces are all **PascalCase**, multiple words concatenated together, without
 **AVOID**:
 
 ```csharp
-com.raywenderlich.fpsgame.hud.healthbar
+farmme.game.farm
 ```
 
 **PREFER**:
 
 ```csharp
-RayWenderlich.FPSGame.HUD.Healthbar
+FarmMe.Game.Farm
 ```
 
 ### Classes & Interfaces
 
-Classes and interfaces are written in **PascalCase**. For example `RadialSlider`. 
+Classes and interfaces are written in **PascalCase**. For example `GameManager`. 
 
 ### Methods
 
@@ -73,10 +73,8 @@ All non-static fields are written **camelCase**. Per Unity convention, this incl
 For example:
 
 ```csharp
-public class MyClass 
-{
+public class MyClass {
     public int publicField;
-    int packagePrivate;
     private int myPrivate;
     protected int myProtected;
 }
@@ -97,7 +95,7 @@ private int myPrivateVariable
 Static fields are the exception and should be written in **PascalCase**:
 
 ```csharp
-public static int TheAnswer = 42;
+public static int Number = 22;
 ```
 ### Properties
 
