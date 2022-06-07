@@ -1,4 +1,4 @@
-# The Official raywenderlich.com C# Style Guide
+# The Official farmme.io C# Style Guide
 
 This style guide is different from others you may find, because the focus is
 centered on readability for print and the web. We created this style guide to
